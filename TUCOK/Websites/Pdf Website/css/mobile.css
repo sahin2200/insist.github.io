@@ -1,0 +1,17 @@
+
+#dot{
+    font-size: 10px;
+}
+
+table{
+    font-size: 12px;
+    
+}
+
+table td th{
+    padding: 0px;
+}
+
+.backyear{
+    width: 100vw;
+}

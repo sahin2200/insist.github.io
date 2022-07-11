@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+.myhead {
+    background-color: #495057;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+
+}
+
+.box{
+    margin: 3px;
+    border:1px solid  rgb(199, 199, 199);
+    width: 320px;
+}
+
+.box .text{
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+.box .img {
+    width: 320px;
+    overflow: hidden;
+    /* background-color: maroon; */
+    background-color: #495057;
+    
+}
+
+.box .img img{
+    width: 100%;
+}
+.box .img img:hover{
+    transition: .5s;
+    transform:scale(1.2);
+}
+
+
+/* Img  */
+.mainImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mainImg img{
+    background-color: grey;
+    padding: 4px;
+    width: 76%;
+}
+
+
+/* other page  */
+.shead {
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 4px;
+}
+
+p{
+    background-color: rgb(245, 244, 244);
+    margin: 1px;
+    
+}
+
+
+
+/* Page Css ----- ------------------------- */
+
+.planePage{
+    padding: 4px;
+    
+}
+
+
+/* Only for Oceanic-Current Page  */
+.ocCurrent{
+    background: rgb(238, 238, 238);
+    border: 1px solid rgb(189, 189, 189);
+    margin: 10px 0px;
+    padding: 10px;
+    
+}
+
+.currents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}

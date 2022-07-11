@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Questrial', sans-serif; */
+    /* font-family: 'Montserrat'; */
+
+}
+
+.heading{
+    background-color: #225863;
+    padding: 2px;
+
+   
+}
+.heading h1{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/* Utility Css   */
+ /* Heading utility */
+ /* (Only used in Ancient Medieval and Modern) */
+
+.mainheading{
+    color: rgb(223, 21, 21);
+    opacity: .9;
+    border-bottom:1px solid rgb(223, 21, 21);
+    padding: 2px 0px;
+    margin: 0px 15px;
+    font-size: 1.4rem;
+ }
+
+
+
+/* orange colour sub heading used only in  Pre-History, Proto-HIstory, History Used   */
+.orasubhead{
+    font-size:14px;
+    color: rgb(255, 128, 0);
+    border-bottom: 1px solid rgb(255, 128, 0);
+    background-color: transparent;
+}
+
+
+
+/*  Blue sub heading used for sub-heading and underline  */
+
+/* bluesubheading is used for heading like Buddhism and Jainsism */
+
+.blueheading{
+    font-style: italic;
+    color: rgb(2, 121, 201);
+    margin: 0px 0px;
+    padding: 5px 0px;
+    text-align: center;
+    border-bottom:1px solid rgb(2, 121, 201);
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}
+
+.bluesubhead {
+    /* font-size: 1rem; */
+    font-style: italic;
+    color: rgb(2, 121, 201);
+    border-bottom: 1px solid rgb(2, 121, 201);
+    padding: 2px 0px;
+    margin: 2px 0px;
+}
+
+/* important li  */
+#highwords{
+    padding: 5px;
+    border-left: 3px #0d6efd solid ;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+
+
+
+
+
+}
+
+
+
+/* Summamry and Details  */
+
+summary{
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+details{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    
+}
+
+h2{
+    font-size: 19px;
+    /* background-color: rgb(237, 246, 248); */
+    /* padding: 4px;sdynasty */
+}
+
+h3{
+    font-size: 16px;
+    color: blue;
+}
+
+/* color BOx  */
+.colorbox{
+    border: 1px solid #225863;
+    margin: 5px 0px;
+}
+.colorbox h2{
+    background-color: #225863;
+    color: #fff !important;
+    padding: 4px;
+    
+}
+
+.colorbox ul{
+    padding: 10px;
+}
+
+.colorbox .table{
+    padding: 10px;
+}
+
+
+
+/* Dynasty heading  */
+
+.sdynasty{
+    overflow:auto;
+    margin: 4px 0px;
+
+}
+.sdynasty h1{
+    padding: 2px 0px;
+    color: #225863;
+    font-size: 21px;
+    
+}
+.dynasty h2{
+    padding: 2px 8px;
+    font-size: 17px; 
+    color:rgb(9, 109, 209);
+    /* opacity: .8;     */
+}
+.dynasty h3{
+    padding: 2px 8px;
+    /* font-size: 14px;  */
+    /* color:rgb(0, 0, 0); */
+    /* opacity: .8;     */
+}
+
+
+/* a thin border for al four side  */
+.sameborder{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 4px;
+
+}
+
+/* this is used for white background container  */
+.whicontainer{
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius:13px;
+    margin: 7px;
+}
+
+.whicontainer ol {
+    margin: 3px;
+    padding: 5px 20px;
+}
+
+.whicontainer ul {
+    padding: 2px;
+    margin: 2px 20px;
+}
+.whicontainer ul h2 {
+    padding: 4px 2px;  
+    margin: 0px -20px;                     
+    
+}
+.whicontainer ul h3 {
+    padding: 4px 2px; 
+    margin: 0px -20px;
+
+}
+
+ #samerow{
+    background-color: rgb(211, 211, 231);
+}
+
+
+
+/* const used for small disclaimer topic   -- t provide background of Voilet color */
+.topic{
+    background-color: rgba(137, 43, 226, 0.336);
+    padding: 4px;
+    margin: 4px 0px;
+
+}
+
+
+/* used for container and images side by side  */
+
+.boxwithimg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+
+
+}
+
+.civilimages{
+    width: 300px;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.civilimages img{
+    width: 94%;
+    padding: 2px;
+    border: 1px solid gray;
+    
+}
+.civilimages img:hover{
+    background-color: rgb(224, 224, 224);
+    transition: .5s;
+
+}
+
+/* Notice  */
+.notice{
+    color: red;
+}
+ 
+/* ///// */
+
+
+
+
+
+
+
+#extremeImp{
+    padding: 1px;
+    background-color: yellow;
+}
+
+
+/* table  */
+.table{
+    margin: 5px;
+    overflow-x:auto;
+
+    
+}
+.table table{
+    overflow: hidden;
+
+    background-color:rgb(0, 0, 0);
+    border-collapse: collapse;
+    
+    
+}
+.table table th{
+    background-color:rgb(117, 177, 236);
+    padding: 4px;
+    border: 1px solid #c9c9c9;
+
+}
+
+.table table td{
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+}
+
+/* ------ */
+
+
+
+/* Pottery  */
+.pottery {
+    border-bottom: none;
+}
+
+.borderbottom{
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 4px;
+}
+/* Indian Freedom Fighters  */
+.iff{
+    background-color: gainsboro;
+   
+}
+.freedomfighters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.indians{
+    border: 1px solid rgb(212, 212, 212);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;   
+    transform: scale(1);
+
+}
+.indians:hover{
+    transition: .5s;
+    transform: scale(1.2);
+    z-index: 1;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.leftright:hover{
+    transition: .5s;
+    transform: scale(1.2);
+    z-index: 1;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   position: relative;
+   left: 20px;
+
+}
+.rightleft:hover{
+    transition: .5s;
+    transform: scale(1.2);
+    z-index: 1;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   position: relative;
+   right: 20px;
+
+}
+
+ /* imgage utility  */
+ /* use in freedom fighter images  */
+.img {
+    width: 260px;
+    margin-bottom: -4px;
+    /* text-align: center; */
+}
+
+.img img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.text{
+    background-color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px 0px;
+
+}
+
+.text h1{
+    font-size: 15px;
+    
+}
+
+.text p{
+    font-size: 15px;
+
+}
+
+.ted{
+    background-color: rgb(39, 39, 39);
+    padding: 2px;
+    margin: 8px 0px;
+
+}
+.ted h1{
+    color: #fff;
+
+}
+
+
+/* use in Buddhism and Jainism  */
+.imgcontainer{
+    position: relative;
+}
+.img1 {
+    /* border:2px solid rebeccapurple; */
+   width: 300px;
+   position: absolute;
+   top: 20px;
+   right: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   
+   
+}
+
+.img1 img{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+
+.img1 img:hover{
+    transform: scale(1.1);
+
+    transition:.5s;
+    cursor: pointer;
+}
+
+
+/* img2 for indus images  */
+.img2 {
+   position: absolute;
+   top: -20px;
+   right: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.img2 img{
+    width: 100%;
+}
+
+
+/* .....  */
+
+
+.contribution ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border: 1px solid gray;
+    background-color:#225863;
+    column-rule: black;
+    padding: 4px;
+
+}
+
+.contribution li a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.contribution li {
+    font-size: 14px;
+}
+
+
+.contribution li a:hover{
+    color:rgb(233, 233, 233);
+}
+
+.copyright-1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+}
+
+
+
+/* Grid / */
+.subgrid{
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+    margin: 2px 0px;
+}
+
+
+/* .mediaeval{
+    background-color: aquamarine;
+}
+
+
+.modern{
+    background-color: rgb(208, 211, 255);
+}
+
+.worldhistory{
+    background-color: rgb(127, 136, 255);
+}
+
+
+
+ */

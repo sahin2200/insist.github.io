@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(245, 245, 245);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Header  */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #343a40;
+    color: #fff;
+    z-index: 2;
+    
+
+
+}
+
+header h1{
+    font-size: 15px;
+}
+header nav ul{
+    list-style: none;
+
+}
+
+header nav ul li{
+    padding: 4px;
+    background: #0a0a0a;
+    cursor:pointer;
+}
+.chapter{
+    margin-top: 30px;
+    
+}
+
+
+/* first section  */
+.first-section{
+    margin-top: 30px;
+}
+.forh1 h1{
+    font-size: 15px;
+    background-color: rgb(0, 79, 170);
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-style: underline;
+    /* margin: 5px; */
+    font-weight: lighter;
+}
+.homo{
+    display: flex;
+}
+.homo .word-m:hover:after{
+    background-color: red;
+}
+
+.homo .word-m:before{
+    content:"";
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 0%;
+    height: 2%;
+    background-color: rgb(47, 190, 3);
+    transition: .5s;
+    
+}
+.homo .word-m:hover:before{
+    width: 100%;
+}
+
+
+
+
+/* sectino-second  */
+.word-m{
+    padding: 5px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 4.5px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.word-m:hover{
+    border-bottom: none;
+}
+.word-m h2{
+    font-size: 15px;
+    padding: 4px;
+    
+}
+p{
+    padding: 1px;
+    font-size: 13.5px;
+}
+.same{
+    padding: 4px;
+    margin: 2px;
+    color:rgb(0, 124, 196);
+}
+
+.same-1{
+    padding: 4px;
+    margin: 2px;
+    color:rgb(0, 11, 160);
+
+}
+
+.word-m:before{
+    content:"";
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 0%;
+    height: 2%;
+    background-color: rgb(3, 37, 190);
+    transition: .5s;
+
+}
+.word-m:hover:before{
+    width: 100%;
+}
+

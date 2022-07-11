@@ -1,0 +1,30 @@
+.body{
+    font-size: 0rem;
+}
+
+/* .mainheading{
+    font-size: .9rem;
+} */
+
+.img1{
+    position:static;
+    width: 244px;
+}
+
+/* indians  */
+.indians, .img{
+    width: 333px;
+    
+}
+
+/* img for indus images  */
+.img2{
+    position:static;
+}
+
+ul li{
+    word-wrap: break-word;
+}
+
+
+

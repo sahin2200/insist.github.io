@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Raleway:wght@500&family=Red+Hat+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    /* background-color: beige; */
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/* Heading */
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    padding: 3px;
+    /* background-color:rgb(15, 192, 197); */
+    background-color: black;
+}
+.heading h1{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.heading ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.continent{
+    background-color: #fff;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.intro h1{
+    margin: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: .4px;
+}
+
+
+/* table  */
+table th{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 5px;
+}
+
+table td{
+    padding: 4px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+
+#topic{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 141, 223);
+}
+
+/* (Asis Continent Heading ) */
+.casia{
+    border-radius: 10px;
+    padding: 9px;
+    
+}
+.casia h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(61, 153, 245);
+}
+
+/* End  */
+
+
+/* Coutry  */
+.country{
+    border: 1px solid rgb(228, 228, 228);
+    margin: 5px 3px ;
+}
+.casia h3{
+    color: #0e7ced;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+/* Saarc  */
+.sameforum{
+    border: 1px solid blue;
+    padding: 2px;
+    margin: 5px 0px;
+
+}
+
+.country .text{
+    position: relative;
+    /* cursor: pointer; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country .text h2{
+    padding:  4px 10px;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    width: 100%;
+}
+
+.text img:first-child{
+    width: 50px;
+}
+
+
+
+/* Second -Content  */
+
+.second-content{
+    display: flex;
+    justify-content: space-between;
+}
+.second-content ul{
+    padding:  4px 20px;
+
+}
+
+
+.second-content .c-img img {
+    width: 100%;
+   
+}
+
+
+
+/* IMg hoVer  */
+
+.text img:nth-child(2){
+    display: none;
+
+}
+
+.text:hover img:nth-child(2){
+    display: block;
+    top: 33px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+    transition: .5s;
+
+}
+
+/* Second Img :hover */
+
+.mymini img{
+    display: none;
+}
+
+.mymini:hover img{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+
+/* Img  */
+.mainImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mainImg img{
+    background-color: grey;
+    padding: 4px;
+    width: 55%;
+}
+
+#maphead{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+.mainImg2{
+    text-align: center;
+}
+
+.mainImg2 img{
+    background-color: grey;
+    padding: 4px;
+    width: 98%;
+}
+

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+  font-family: "Nunito", sans-serif;
+}
+
+.heading {
+  color: black;
+  text-align: center;
+  padding: 4px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  background-color: #fff;
+  letter-spacing: .3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+.second ul {
+  padding: 3px;
+  list-style: none;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+.second ul li a:hover {
+  cursor: pointer;
+  border-bottom: 2.5px solid blue;
+  color: blue;
+}
+
+.second ul li a {
+  text-decoration: none;
+  color: #111;
+  padding: 10px 16px;
+}
+
+.header,
+.first img {
+  width: 48px;
+  display: flex;
+  padding: 0px 10px;
+}
+
+hr {
+  opacity: calc(28%);
+  background-color: black;
+  /* width: 40px; */
+}
+
+/* container  */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 11px 17px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 5px;
+  width: 254px;
+  text-align: center;
+  height: 470px;
+  /* border: .9px solid rgb(189, 188, 188); */
+  /* border:1px solid */
+  border: 1px solid rgb(224, 224, 224);
+  justify-content: space-evenly;
+}
+
+.box:hover {
+  transition: 0.39s;
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+  /* box-shadow: rgba(223, 223, 223, 0.4) -2px 2px, rgba(168, 168, 168, 0.3) -4px 4px, rgba(116, 116, 116, 0.2) -6px 6px, rgba(73, 73, 73, 0.1) -8px 8px, rgba(68, 68, 68, 0.05) -10px 10px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+/* box images  */
+
+.box a img {
+  width: 46%;
+  padding: 4px;
+  margin: 15px 0px;
+}
+
+.box img:hover {
+  transition: 0.6s;
+  transform: scale(105%);
+}
+
+/* box text  */
+
+.box .text {
+  padding: 6px;
+}
+
+.box a {
+  text-decoration: none;
+}
+.text p {
+  padding: 4px;
+  margin-top: 8px;
+  background-color: rgb(252, 251, 251);
+  font-size: 15px;
+  padding: 10px;
+  margin: 2px 2px;
+}
+
+.text h1 {
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Nunito", sans-serif;
+}
+
+/* Button  */
+
+.butt{
+  height: 0px;
+  margin: 20px;
+  margin-top: 10px;
+
+}
+
+.butt a{
+  padding:9px 50px;
+  border: 1px solid  rgb(238, 238, 238);
+  border-radius: 3px;
+  font-size: 15px;
+}

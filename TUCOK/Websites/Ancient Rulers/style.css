@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+header{
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+}
+
+
+.heading{
+    text-align: center;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background-color:#225863;
+    background-color:rgb(34, 8, 131);
+
+
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    padding: .8rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.heading h1{
+    font-size:1rem;
+    padding: 4px;
+    color: #fff;
+
+}
+
+.menu nav ul{
+    list-style: none;
+    padding: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+
+}
+.menu nav ul li {
+    margin: 0px 4px;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 12px;
+    padding: 4px ;
+}
+
+.menu nav ul li:hover{
+    padding: 4px;
+    background-color: rgb(62, 22, 207);
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* End of Heading  */
+
+
+.topic{
+    background-color: black;
+    display: block !important;
+    width: 98.78vw;
+
+  
+
+
+   
+}
+a{
+    text-decoration: none;
+}
+.topic h2{
+    padding: 5px;
+    opacity: .8;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+/* content  */
+
+.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spartan', sans-serif;
+    flex-wrap: wrap;
+    padding: 4px;
+
+}
+.box{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 24px 2px;
+    width: 287px;
+    /* height: 500px; */
+    overflow: hidden;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transform: scale(1);
+    background-color:rgb(66, 33, 187);
+
+
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.img{
+    width: 287px;
+}
+.img img{
+    width: 100%;
+    margin-bottom: -2px;
+}
+
+.text{
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+    
+}
+.text h1{
+    font-size: 1rem;
+}
+
+.text .dates{
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.text:nth-child(2){
+    font-size: .8rem;
+}
+
+
+
+/* Indian Warriors  */
+
+.sechead{
+    background: rgb(233, 233, 233);
+    padding: 5px;
+    font-family: 'Joan', serif;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+

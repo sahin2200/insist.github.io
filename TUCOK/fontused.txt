@@ -1,0 +1,76 @@
+Fonts  
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+font-family:
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+  font-family: 'Montserrat';
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+ font-family: 'Questrial', sans-serif; 
+
+Default Fonts ... 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+font-family: 'Montserrat', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+font-family: 'GFS Didot', serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+font-family: 'GFS Didot', serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+font-family: 'Dongle', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+font-family: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Source+Serif+4:ital,wght@1,300&display=swap');
+font-family: 'Source Serif 4', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+font-family: 'Nunito', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+font-family: 'PT Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+font-family: 'Nunito Sans', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+font-family: 'Jost', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+font-family: 'Nanum Myeongjo', serif;
+
+
+shadow  
+
+box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
